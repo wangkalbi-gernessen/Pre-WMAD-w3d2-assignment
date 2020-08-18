@@ -5,6 +5,8 @@ let numbers = ['1', '2', '3', '4'];
 
 const addTheLast = function (array1, array2) {
   array1.push(array2[array2.length -1]);
-  console.log(array1); 
+  return array1; 
 };
-addTheLast(food, numbers);
+
+let result = addTheLast(food, numbers);
+console.log(result);
