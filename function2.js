@@ -7,16 +7,16 @@ let example2 = [1, 2];
 
 const logThird= function (array) {
   if(array.length < 3){
-    console.log("There is no third item");
+    return "There is no third item";
   }else {
-    console.log(array[2]);
+    return array[2];
   }
 };
 
-logThird(example);
-
+let result = logThird(example);
+console.log(result);
 // answer should be 3
 
-logThird(example2);
-
+let result2 = logThird(example2);
+console.log(result2);
 //answer should be 'There is no third item'
