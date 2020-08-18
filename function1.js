@@ -4,9 +4,11 @@ let example = [1, 2, 3, 4, 'five', 6, 7];
 
 const logLength = function (arrays) {
 
-  console.log(arrays. length);
+  arrays. length;
+  return arrays. length;
   
 };
-logLength(example);
+let result = logLength(example);
+console.log(result);
 
 //answer should be 7
