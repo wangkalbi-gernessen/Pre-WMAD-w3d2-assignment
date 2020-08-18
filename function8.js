@@ -2,10 +2,9 @@
 // console log this array
 let sentence = "I am a sentence"
 
-
-
-const splitSentence= function () {
-
+const splitSentence= function (array) {
+  let result = array.split(' ');
+  console.log(result);
 };
 
 splitSentence(sentence);
