@@ -6,7 +6,8 @@ const addHooray = function (array) {
   for(let i = 0; i < array.length; i++){
     food[i] += "HOORAY";
   }
-  console.log(food);
+  return food;
 };
 
-addHooray(food);
+let result = addHooray(food);
+console.log(result);
