@@ -3,8 +3,8 @@ let food = ['apple', 'orange', 'cake', 'carrots', 'pasta', 'rice', 'eggs'];
 
 let numbers = ['1', '2', '3', '4'];
 
-const addTheLast = function (array1, array2) {
-  let result = array2[3].;
+const addTheLast = function (food, numbers) {
+  food.push(numbers[numbers.length -1]);
+  console.log(food); 
 };
-
 addTheLast(food, numbers);
