@@ -15,7 +15,6 @@ const logStringsAndNumbers = function (array) {
 };
 
 logStringsAndNumbers(example);
-
 /*
 response should look like this
 1
