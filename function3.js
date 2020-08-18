@@ -9,4 +9,3 @@ const logItems = function (array) {
 };
 
 logItems(example);
-
