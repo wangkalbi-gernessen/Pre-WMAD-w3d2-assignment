@@ -4,8 +4,14 @@
 
 let example = [1, 'dog', 3, 'eight', 5, 'car', 7, 8];
 
-const logStringsAndNumbers = function () {
-
+const logStringsAndNumbers = function (array) {
+  for(let i = 0; i <= array.length; i++ ){
+    if(typeof array[i] === 'string'){
+      console.log(`${array[i]} this is a string`);
+    }else if (typeof array[i] === 'number'){
+      console.log(i+1);
+    }
+  }
 };
 
 logStringsAndNumbers(example);
