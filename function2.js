@@ -5,8 +5,9 @@ let example = [1, 2, 3, 4, 'five', 6, 7];
 
 let example2 = [1, 2];
 
-const logThird= function () {
-
+const logThird= function (array1, array2) {
+  console.log(array1[2]);
+  console.log(array2[2]);
 };
 
 logThird(example);
