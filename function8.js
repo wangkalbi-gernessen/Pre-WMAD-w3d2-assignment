@@ -3,8 +3,10 @@
 let sentence = "I am a sentence"
 
 const splitSentence= function (array) {
+
   sentence = array.split(' ');
   return sentence;
+
 };
 
 let result = splitSentence(sentence);

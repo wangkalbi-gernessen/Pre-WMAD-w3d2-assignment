@@ -2,8 +2,9 @@
 let brokenSentence = ['I', 'am', 'a', 'broken', 'sentence'];
 
 const joinSentence= function (String) {
-  let result = String.join(' ');
-  console.log(result);
+  let sentence = String.join(' ');
+  return sentence;
 };
 
-joinSentence(brokenSentence);
+let result = joinSentence(brokenSentence);
+console.log(result);
